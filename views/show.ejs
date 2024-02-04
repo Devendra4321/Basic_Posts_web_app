@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post in detail</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Here is your post in detail</h1>
+    <div class="container-show">
+      <div class="post main">
+        <p><span class="p-info">Post id:</span> <%=post.id%></p>
+        <p>
+          <span class="p-info">Post username:</span>
+          <span class="p-data">@<%=post.username%></span>
+        </p>
+        <h4 class="content"><%= post.content %></h4>
+      </div>
+    </div>
+  </body>
+</html>
